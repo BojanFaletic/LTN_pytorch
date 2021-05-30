@@ -11,7 +11,7 @@ except ImportError:
 ParserElement.enablePackrat()
 
 import torch
-import logictensornetworks as ltn
+from . import logictensornetworks as ltn
 import logging
 
 CONFIGURATION = {"max_nr_iterations": 1000, "error_on_redeclare": False}

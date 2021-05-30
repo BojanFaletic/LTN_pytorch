@@ -2,7 +2,7 @@ import logging; logging.basicConfig(level=logging.INFO)
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
-import logictensornetworks_wrapper as ltnw
+import LTN as ltnw
 
 nr_samples=500
 

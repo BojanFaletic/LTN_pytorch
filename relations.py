@@ -4,7 +4,7 @@ logger.basicConfig = logging.basicConfig(level=logging.DEBUG)
 import numpy as np
 import matplotlib.pyplot as plt
 
-import logictensornetworks_wrapper as ltnw
+import LTN as ltnw
 
 nr_samples=5
 epochs=10000
